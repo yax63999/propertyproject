@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="sty.css">
+  <link rel="stylesheet" href="bootstrap.min.css" />
+
+  <title>signup</title>
+
+  <style>
+    .card {
+      margin-top: 200px;
+      width: 280px;
+      background-image: url("abc.jpg  ");
+    }
+
+    .srbtn {
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+    }
+
+    body {
+      background-color: rgb(174, 182, 190);
+      background-image: url(background2.png);
+
+    }
+
+    img {
+      position: relative;
+      width: 120px;
+      top: 50%;
+      left: 25%;
+      box-shadow: 1px 1px 15px rgb(0, 0, 0);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+  <!-- <div class="nav navbar fixed-top ">
+    <div class="navimg ms-4">
+      <a href="home.html"><img src="logo.png" width="100px" </a>
+    </div>
+    <div class="me-4">
+      <ul class="fw-bold">
+        <li><a href="signupp.html">LOGIN / SIGNUP</a></li>
+        <li><a href="Feedbackform.html">FEEDBACK</a></li>
+        <li><a href="Aboutsus.html">ABOUTUS</a></li>
+        <li><input type="search" class="me-2 rounded-pill search-bar" placeholder="search"><a href=""><img
+              src="search.png" width="22px"></a></li>
+      </ul>
+
+    </div>
+  </div> -->
+
+
+
+  <!-- comtainer -->
+
+  <div class="card container-fluid d-flex justify-content-center backg p-3 ">
+    <header><img src="logo.png" /></header>
+    <br>
+    <h2 class="text-center"><b>Login / Sign Up</b></h2>
+    <hr />
+
+    <div id="content_container">
+      <div id="form_container">
+        <div id="form_header_container">
+        </div>
+
+        <div id="form_content_container">
+          <div id="form_content_inner_container">
+
+            <div class="text-center ">
+              <label for="fullname">First Name</label>
+              <input type="text" id="firstname" placeholder="First name" class="form-control" />
+              <label for="fullname">Last Name</label>
+              <input type="text" id="lastname" placeholder="Last name" class="form-control" />
+              <label for="fullname">Email</label>
+              <input type="email" id="email" placeholder="Email" class="form-control" />
+              <label for="fullname">Password</label>
+              <input type="password" id="password" placeholder="Password" class="form-control" />
+
+
+
+              <div id="button_container">
+                <button onclick="login()" class="btn btn-dark srbtm mt-2">Login</button>
+                <button onclick="register()" class="btn btn-dark srbtm mt-2">Signup</button>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+
+
+
+<script type="module">
+
+</script>
+
+
+
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+<script src="index.js"></script>
+
+</html>
