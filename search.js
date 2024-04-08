@@ -3,7 +3,7 @@ const search = () =>{
     const storeitems = document.getElementById("container")
     const column = document.querySelectorAll(".column")
     const pname = storeitems.getElementsByTagName ("h2")
-
+    
     for(var i=0; i < pname.length; i++){
         let match = column[i].getElementsByTagName('h2')[0];
 
