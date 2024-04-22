@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
-body{
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+body {
   padding: 0px;
   margin: 0px;
+  background: #eee;
+  background-color: rgb(174, 182, 190);
+  background-image: url(background2.png);
 }
 
 /* .container {
@@ -18,8 +22,8 @@ body{
 
 .navbar {
   background-color: #333;
-  height: 64px;  
-  display:flex;
+  height: 64px;
+  display: flex;
   justify-content: space-evenly;
 }
 
@@ -71,8 +75,6 @@ body{
 h2 {
   font-size: 18px;
   margin-bottom: 10px;
- 
-
 }
 
 .heading {
@@ -80,21 +82,58 @@ h2 {
   padding: 20px;
 }
 
-.search-bar{
+.search-bar {
   padding: 7px;
 }
 
-.foot{
+.foot {
   color: #fff;
   background-color: #333;
 }
 
-
-footer .nav .nav-link{
+footer .nav .nav-link {
   text-decoration: none;
-  color:#fff;
+  color: #fff;
 }
 
-footer{
+footer {
   color: white;
+}
+
+/* for Jquery */
+
+body {
+  background: #eee;
+}
+.modaly {
+  padding: 40px;
+  background: #fff;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 50%;
+  margin-top: -50px;
+  left: 46%;
+  margin-left: -100px;
+  line-height: 25px;
+  z-index: 99;
+}
+.modal a {
+  line-height: 1em;
+}
+.modal-bg {
+  background: #fff;
+  zoom: 1;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
 }
