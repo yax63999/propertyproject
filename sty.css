@@ -3,9 +3,6 @@
 body {
   padding: 0px;
   margin: 0px;
-  background: #eee;
-  background-color: rgb(174, 182, 190);
-  background-image: url(background2.png);
 }
 
 /* .container {
@@ -102,9 +99,6 @@ footer {
 
 /* for Jquery */
 
-body {
-  background: #eee;
-}
 .modaly {
   padding: 40px;
   background: #fff;
@@ -136,4 +130,25 @@ body {
   left: 0;
   right: 0;
   z-index: 9;
+}
+
+/*  Hero Section */
+
+.hero-section {
+  margin-top: 62px;
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.carousel-item,
+img {
+  border-radius: 35px;
+}
+
+.carousel-caption {
+  background-color: #333;
+  opacity: 0.7;
+  border-radius: 35px;
 }
