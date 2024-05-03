@@ -139,6 +139,14 @@ footer {
   width: 100%;
 }
 
+.carousel-inner * {
+  border-radius: 30px;
+}
+
+.product-div {
+  border-radius: 30px;
+}
+
 /* .carousel-item {
   border-radius: 35px;
 } */
