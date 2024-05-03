@@ -136,19 +136,9 @@ footer {
 
 .hero-section {
   margin-top: 62px;
-  padding-left: 300px;
-  padding-right: 300px;
-  padding-bottom: 50px;
-  padding-top: 50px;
+  width: 100%;
 }
 
-.carousel-item,
-img {
+/* .carousel-item {
   border-radius: 35px;
-}
-
-.carousel-caption {
-  background-color: #333;
-  opacity: 0.7;
-  border-radius: 35px;
-}
+} */
