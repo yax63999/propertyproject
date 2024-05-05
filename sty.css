@@ -99,38 +99,33 @@ footer {
 
 /* for Jquery */
 
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  backdrop-filter: blur(5px); /* Apply blur effect */
+  z-index: 999; /* Ensure it's above other content */
+}
+
+/* Style the modal */
 .modaly {
-  padding: 40px;
-  background: #fff;
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 50%;
-  margin-top: -50px;
-  left: 46%;
-  margin-left: -100px;
-  line-height: 25px;
-  z-index: 99;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000; /* Ensure it's above the blurred background */
 }
+
 .modal a {
   line-height: 1em;
 }
-.modal-bg {
-  background: #cac4c4;
-  /* zoom: 1; */
-  opacity: 0.1;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9;
-}
-
 /*  Hero Section */
 
 .hero-section {
@@ -145,7 +140,3 @@ footer {
 .product-div {
   border-radius: 30px;
 }
-
-/* .carousel-item {
-  border-radius: 35px;
-} */
